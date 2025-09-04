@@ -1,24 +1,15 @@
-        // const heading = React.createElement("h1", {id: "heading"}, "Hello from React!");
-        // const root = ReactDOM.createRoot(document.getElementById("root"));
-
-        // root.render(heading);
-
-        //FOR MAKING NESTED TAGS
-        /*
-        <div id="parent">
-           <div id="child">
-                <h1>I'm h1 tag</h1> // for making sibling convert it into array
-                <h2>I'm h2 tag</h2>
-           </div>
-        </div>
-        */
 
 
-        const parent = [React.createElement("div", {id: "parent"}, React.createElement("div", {id: "child"}, [React.createElement("h1", {id: "heading"}, "I'm an H1 tag"),React.createElement("h2", {id: "heading"}, "I'm an H2 tag")] )),React.createElement("div", {id: "parent"}, React.createElement("div", {id: "child"}, [React.createElement("h1", {id: "heading"}, "I'm an H1 tag"),React.createElement("h2", {id: "heading"}, "I'm an H2 tag")] ))];
+        import React from "react";
+        import ReactDOM from "react-dom";
+        import ReactDOM from "react-dom/client";
+
+
+
+        const parent = [React.createElement("div", {id: "parent",key:1}, React.createElement("div", {id: "child",key:2}, [React.createElement("h1", {id: "heading",key:3}, "I'm an H1 tag"),React.createElement("h2", {id: "heading",key:4}, "I'm an H2 tag")] )),React.createElement("div", {id: "parent",key:5}, React.createElement("div", {id: "child",key:6}, [React.createElement("h1", {id: "heading",key:7}, "I'm an H1 tag"),React.createElement("h2", {id: "heading",key:8}, "I'm an H2 tag")] ))];
         const root = ReactDOM.createRoot(document.getElementById("root"));
 
 
         root.render(parent);
         
 
-//

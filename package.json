@@ -1,0 +1,30 @@
+{
+  "name": "reactanimesh",
+  "version": "1.0.0",
+  "description": "This is Practice React by Animesh",
+
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/animesh363/HelloRe-ct.git"
+  },
+  "keywords": [
+    "HelloReact",
+    "Animee"
+  ],
+  "author": "Animesh Thakur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/animesh363/HelloRe-ct/issues"
+  },
+  "homepage": "https://github.com/animesh363/HelloRe-ct#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
